@@ -1,0 +1,60 @@
+#navbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #007BFF;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.navbar a:hover {
+    background-color: #0056b3;
+}
+
+.navbar button {
+    display: inline-block;
+    margin: 10px;
+    padding: 5px 10px; /* Reduce el padding para hacer los botones más pequeños */
+    text-decoration: none;
+    color: white;
+    background-color: #007BFF;
+    border-radius: 20px; /* Aumenta el border-radius para hacer los botones más redondeados */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 0.8em; /* Reduce el tamaño de la fuente */
+}
+
+.navbar button:hover {
+    background-color: #0056b3;
+}
+
+.navbar button:active {
+    transform: scale(0.9);
+}
+
+.navbar button:focus {
+    outline: none;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
